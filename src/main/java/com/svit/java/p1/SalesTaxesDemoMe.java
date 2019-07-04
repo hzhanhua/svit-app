@@ -323,9 +323,9 @@ public class SalesTaxesDemoMe{
 		ShoppingCartBuilder builder = new ShoppingCartBuilderImp();
 		
 		//input 1:
-		builder.buildShoppingCart(Item.TYPE_BFM, "book", 1, 12.49);
-		builder.buildShoppingCart(Item.TYPE_BFM, "chocolate bar", 1, 0.85);
-		builder.buildShoppingCart(Item.TYPE_OTHER_GOODS, "music CD", 1, 14.99);
+		builder.buildShoppingCart(Item.TYPE_BFM, "book", 1023, 12.49);
+		builder.buildShoppingCart(Item.TYPE_BFM, "chocolate bar", 2, 0.85);
+		builder.buildShoppingCart(Item.TYPE_OTHER_GOODS, "music CD", 10, 14.99);
 		
 		//print result of input 1
 		System.out.println("\nShopping Cart input 1: ");
